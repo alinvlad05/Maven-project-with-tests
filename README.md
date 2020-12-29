@@ -15,3 +15,6 @@ mvn package
 Open index.html file generated in the target/site/jacoco folder.
 The report gives information about the test coverage.
 12 of 19 instructions are not covered by tests.(Green indicates lines that are covered by tests, red indicates lines that are not covered by tests).
+
+prepare-agent goal runs and prepares the agent that does the analysis.
+report goal: This agent gathers test coverage information when the tests are run and creates the report as part of the prepare-package phase.
